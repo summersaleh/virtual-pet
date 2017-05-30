@@ -72,7 +72,7 @@ public class VirtualPetApp {
 			String choice = input.next();
 			checkForQuit(choice);
 
-			if (choice.toLowerCase().equals("stats")) {
+			if (choice.toLowerCase().equals("needs")) {
 				writeLine(stats);
 			} else {
 
